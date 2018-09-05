@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>AC4</title>
+</head>
+    <body>
+        <header>
+            <h2>AC4 - Tecnologia Web</h2>
+        </header>
+        <section>
+            <h2>Cadastro de estudante</h2>
+            <form action="#" name="formCadastroAluno" method="GET">
+                <div class="content-input">
+                     <label for="name">Nome</label>
+                    <input class="input-campo-cadastro" maxlength="20" type="text" name="txtName" placeholder="Nome" id="name">
+                </div>
+
+                <div class="content-input">
+            
+                    <label for="end">Endereço</label>
+                    <input class="input-campo-cadastro"maxlength="30" type="text" name="txtEnd" placeholder="Endereço" id="end">
+    
+                </div>
+               
+                <div class="content-input">
+                    <label for="cidade">Cidade</label>
+                    <input class="input-campo-cadastro" type="text" name="txtCidade" placeholder="Cidade" id="cidade">
+                </div>
+               
+               
+                <div class="content-input">
+                    <label for="UF">UF</label>
+                    <input class="input-campo-cadastro" type="text" name="txtUf" placeholder="UF" id="UF">
+
+                </div>
+
+                <div class="content-input">
+                    <label for="RG">RG</label>
+                    <input class="input-campo-cadastro" type="text" name="txtRg" placeholder="RG" id="RG">
+                </div>
+                
+                <div class="content-input">
+                    <label for="CPF">CPF</label>
+                    <input class="input-campo-cadastro" maxlength="14" type="text" name="txtCPF" placeholder="CPF" id="CPF">
+                </div>
+
+               <div class="content-input">
+                    <label for="email">Email</label>
+                    <input class="input-campo-cadastro" maxlength="20" type="text" name="txtEmail" placeholder="Email" id="email">
+               </div>
+
+               
+
+                <div class="content-input-check">
+                    <label for="face">Facebook</label>
+                    <input class="input-campo-cadastro" type="checkbox" value="1" name="checkFace" id="face">
+
+                </div>
+                
+
+                <div class="content-input-check">
+                    <label for="twt">Twitter</label>
+                    <input class="input-campo-cadastro" type="checkbox" value="2" name="checkTT" id="twt">
+                </div>
+                
+                <div class="content-input-check">
+                    <label for="whats">WhatsApp</label>
+                    <input class="input-campo-cadastro" type="checkbox" name="checkWhats" value="3" id="whats">
+                </div>
+
+                <div class="content-input-check">
+                    <label for="outros">Outros</label>
+                    <input class="input-campo-cadastro" type="checkbox" name="checkOutros" value="4" id="outros">
+                </div>
+
+                <br><br><br>
+
+                <div class="content-input">
+                    <label for="curso">Escolha um curso</label>
+                    <select name="selCursos" id="select">
+                        <option value="1"> Redes </option>
+                        <option value="2" selected> SI </option>
+                        <option value="3"> ADS </option>
+                    </select>
+                </div>
+
+
+                <div class="content-input">
+                    <label>Motivo de matricula</label>
+                    <textarea class="input-campo-cadastro" maxlength="100" id="motivo" ></textarea>
+                </div>
+
+                <input type="submit" class="btn-send" name="btn"/>
+                
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li>Marcelo Bruno - RA: 1800278</li>
+                <li>Giovanna Resende - RA: 1801110</li>
+            </ul>
+        </footer>
+    </body>
+</html>
